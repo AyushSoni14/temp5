@@ -1,3 +1,11 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "next/typescript", "plugin:@typescript-eslint/recommended"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "off",   // Disables the error for unused variables
+    "@typescript-eslint/no-explicit-any": "off",  // Allows using 'any' type in TypeScript
+    "@typescript-eslint/no-non-null-asserted-optional-chain": "off", // Allows non-null assertions on optional chains
+    "no-console": "warn", // Converts console errors to warnings (you can change it to 'off' if needed)
+    "no-var": "error", // Enforces the use of let/const instead of var
+    "prefer-const": "warn" // Suggests using const for variables that are never reassigned
+  }
 }
