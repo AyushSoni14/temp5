@@ -12,7 +12,7 @@ import useActiveList from "@/app/hooks/useActiveList";
 
 interface HeaderProps {
     conversation: Conversation & {
-        user: User[]
+        users: User[]
     }
 };
 const Header: React.FC<HeaderProps> = ({
@@ -24,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({
     const isActive = members.indexOf(otherUser?.email!) !== -1;
     const statusText = useMemo(() => {
 if(conversation.isGroup){
-    return `${conversation.user.length} members`;
+    return `${conversation.users.length} members`;
 }
 return isActive ? 'Active' : 'Offline';
     }, [conversation, isActive])
@@ -62,7 +62,7 @@ href="/conversations">
 <HiChevronLeft size={32}/>
 </Link>
 {conversation.isGroup ? (
-<AvatarGroup  user={conversation.user}/>
+<AvatarGroup  user={conversation.users}/>
 ): (
     <Avatar user={otherUser} />
 )}

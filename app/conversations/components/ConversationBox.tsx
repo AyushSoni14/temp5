@@ -74,7 +74,7 @@ return "Started a conversation";
         selected ? 'bg-neutral-100' : 'bg-white')}
         >
             {data.isGroup ? (
-                <AvatarGroup user={data.user}/>
+                <AvatarGroup user={data.users}/>
             ): (
           <Avatar user={otherUser} />
         )}

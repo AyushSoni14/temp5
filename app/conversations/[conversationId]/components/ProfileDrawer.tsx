@@ -14,7 +14,7 @@ interface ProfileDrawerProps {
     isOpen: boolean;
     onClose: () => void;
     data: Conversation & {
-        user: User[]
+        users: User[]
     }
 }
  const ProfileDrawer: React.FC<ProfileDrawerProps> = ({
@@ -35,7 +35,7 @@ interface ProfileDrawerProps {
     }, [data.name, otherUser.name]);
     const statusText = useMemo(() => {
  if(data.isGroup){
-    return `${data.user.length} members`;
+    return `${data.users.length} members`;
  }
  return isActive ? 'Active' : 'Offline';
     }, [data, isActive]);
@@ -159,7 +159,7 @@ flex flex-col items-center
 ">
 <div className="mb-2">
     {data.isGroup ? (
-<AvatarGroup user={data.user} />
+<AvatarGroup user={data.users} />
     ):(
         <Avatar user={otherUser} />
     )}
@@ -248,7 +248,7 @@ sm:pt-0
         sm:col-span-2
 
         ">
-{data.user.map((user) => user.email).join(', ')}
+{data.users.map((user) => user.email).join(', ')}
         </dd>
     </div>
 )}
