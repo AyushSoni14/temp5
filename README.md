@@ -7,7 +7,7 @@
 Vibe Chat is a real-time messaging application built using modern web technologies. It features a sleek, responsive UI, user authentication, and real-time messaging capabilities. The project is deployed at [VibeChat](https://temp5-gamma.vercel.app/) for live usage.
 
 ## System design document
-here is the document [link](https://drive.google.com/file/d/1DegLVfHdaIwQ13_3pasGB_ZFr8FFelfg/view?usp=sharing)
+You can check the entire system design here: [link](https://drive.google.com/file/d/1DegLVfHdaIwQ13_3pasGB_ZFr8FFelfg/view?usp=sharing)
 ## Features
 1. Real-time messaging using Pusher
 2. Message notifications and alerts
