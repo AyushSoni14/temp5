@@ -59,7 +59,7 @@ export async function POST(
         id: conversationId,
         messages: [updateMessage]
       });
-      if(lastMessage.seenIds.indexOf(currentUser.id) !== 1){
+      if(lastMessage.seenIds.indexOf(currentUser.id) !== -1){
         return NextResponse.json(conversation);
       }
       await pusherServer.trigger(conversationId!, 'message:update', updateMessage);
