@@ -1,40 +1,48 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vibe Chat Application
+- **Author:** Ayush Soni
+- **University:** Indian Institute of Technology, Patna
+- **Department:** Mechanical Engineering
 
-## Getting Started
+## Overview
+Vibe Chat is a real-time messaging application built using modern web technologies. It features a sleek, responsive UI, user authentication, and real-time messaging capabilities. The project is deployed at [VibeChat](https://temp5-gamma.vercel.app/) for live usage.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
+1. Real-time messaging using Pusher
+2. Message notifications and alerts
+3. File uploads and image sharing via Cloudinary CDN
+4. Tailwind CSS for sleek UI design and animations
+5. Responsive design for all devices
+6. Authentication via NextAuth with Google and GitHub
+7. User status tracking (online/offline)
+8. Message read receipts
+9. Group chats and one-on-one conversations
+10. Profile customization
+11. Message attachments and file sharing
+12. Server error handling using react-toast
+13. Client-side form validation with react-hook-form
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# temp5
->>>>>>> 9b48bc8d6f1c2ef51c95f2b2689876f76131f9a4
+- Frontend: Next.js 13, React, Tailwind CSS, react-hook-form, React Icons
+- Backend: Node.js, Prisma, MongoDB
+- Real-time Messaging: Pusher
+- Authentication: NextAuth with Google and GitHub providers
+- File Storage: Cloudinary
+- Styling: Tailwind CSS with animations and transitions
+- State Management: Zustand
+- Data Formatting: SuperJSON, date-fns
+## Usage
+- Login/Signup: Users can sign in using Google or GitHub.
+- Create Conversations: Users can create one-on-one or group chats.
+- Send Messages: Real-time message sending and notifications.
+- File Uploads: Share images and files within chats.
+## Screenshots
+Login Page/ Sign page
+![image](https://github.com/user-attachments/assets/42469743-bce7-433d-905d-ec2f7ab14f21)
+Group Chat
+![image](https://github.com/user-attachments/assets/26c6ba25-8f7b-49ff-aeec-231465a6c184)
+Personal Chat
+![image](https://github.com/user-attachments/assets/d2c1d39c-23c0-4bba-99dc-db31800ed929)
+Profile Edit
+![image](https://github.com/user-attachments/assets/8ece79a5-3d38-4fc9-8776-981fc2f33d2f)
