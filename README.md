@@ -41,9 +41,16 @@ You can check the entire system design here: [link](https://drive.google.com/fil
 ## Screenshots
 Login Page/ Sign page
 ![image](https://github.com/user-attachments/assets/42469743-bce7-433d-905d-ec2f7ab14f21)
-Group Chat
-![image](https://github.com/user-attachments/assets/26c6ba25-8f7b-49ff-aeec-231465a6c184)
-Personal Chat
-![image](https://github.com/user-attachments/assets/d2c1d39c-23c0-4bba-99dc-db31800ed929)
+
 Profile Edit
+![image](https://github.com/user-attachments/assets/26c6ba25-8f7b-49ff-aeec-231465a6c184)
+
+Creating Group
+![image](https://github.com/user-attachments/assets/c9e1914f-dc78-4f77-b0e0-5d67f84c7e87)
+
+Group Chat
+![image](https://github.com/user-attachments/assets/d2c1d39c-23c0-4bba-99dc-db31800ed929)
+
+Personal chat
 ![image](https://github.com/user-attachments/assets/8ece79a5-3d38-4fc9-8776-981fc2f33d2f)
+
